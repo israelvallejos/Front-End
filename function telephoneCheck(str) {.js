@@ -26,4 +26,3 @@ if (newString.length == 10){
 }
 
 let result = telephoneCheck("555-555-5555");
-//console.log(result);
