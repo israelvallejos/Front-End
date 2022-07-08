@@ -1,0 +1,85 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<main id="main">
+<h3 id="title"><em>The man who inspired me to be a programmer</em></h3>
+<div id="img-div">
+  <img id="image"src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/09/elon-musk_1.png?fit=2400%2C1670&ssl=1">
+<figcaption id="img-caption"><strong>Elon Musk</strong></figcaption>
+</div><br>
+<div id="tribute-info"><i>Programmer, Philanthropist and Entrepreneur. For more info about him, please refer to the link below<i></div>
+<a href="https://es.wikipedia.org/wiki/Elon_Musk" id="tribute-link" target="_blank">Click here for more info about this successfull man</a><br><br>
+<h4 id="list0"> This is a summary of Elon's life:</h4>
+<div id="list1"><ul>
+<li id="first"> <strong>1971</strong> - Born in Pretoria (South Africa)</li><br> 
+<li id="second"> <strong>2002</strong> - CEO of SpaceX (currently in office)</li><br>
+<li id="second"> <strong>2003</strong> - CEO of Tesla, Inc (currently in office)</li><br>
+<li id="second"> <strong>2006</strong> - President of SolarCity Corporation (currently in office)</li><br>
+<li id="second"> <strong>2015</strong> - Co-President of OpenAI(currently in office)</li><br>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+#title{
+background-color: #1e90ff;
+text-align: center; 
+margin: -2px;
+font-family: helvetica, sans-serif;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#list{
+  text-align: center;
+}
+#main{
+  background-color: #fff8dc;
+}
+#tribute-info{
+  display: flex;
+  background-color: #c0c0c0;
+  border: 3px solid black;
+  margin: -3px;
+  margin-top: -17px;
+  padding: 1px;
+}
+#img-caption{
+  background-color: #1e90ff
+}
+#list1{
+  display: flex;
+  background-color: #c0c0c0;
+  border: 3px solid#6495ed
+}
+
+** end of undefined **
+

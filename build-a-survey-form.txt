@@ -1,0 +1,65 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<div id="img-div"><h1 id="title">Random Survey Form</h1>
+<p id="description" style="color: hsl(240, 0%, 0%)">Be kind and answer my little survey</p>
+<div id="form-div"><form id="survey-form">
+  <label id="name-label" style="color: white">NickName</label><br>
+<input id="name" type="text" required="required" placeholder="israelAlonso"><br>
+<label id="email-label" style="color: white">E-mail</label><br>
+<input id="email" type="email" required="required" placeholder="israelvallejos@example.com"><br>
+<label id="number-label" style="color: white">Age</label><br>
+<input id="number" type="number" min="5" max="150" placeholder="45"><br>
+<label id="ageLabel" style="color: white">Choose a Gender</label><br>
+<select id="dropdown">
+  <option value="">Please Choose An Option</option>
+  <option value="Recruiter">Male</option>
+  <option value="Family">Female</option>
+  <option value="Friend">Dog</option>
+  </select>
+<p id="question" style="color: white">What is your favorite sport?</p>
+<input name="radio" type="radio" value="firstOne">
+<label id="labelRadio1" style="color: white">FootBall</label><br>
+<input name="radio" type="radio" value="secondOne">
+<label id="labelRadio2" style="color: white">BasketBall</label><br>
+<input name="radio" type="radio" value="thirdOne">
+<label id="labelRadio3" style="color: white">VolleyBall</label>
+<p id="2ndQuestion" style="color: white">Do you have any Pets?</p>
+<input type="checkbox" value="1">
+<label id="box1Label" style="color:white">Yes</label><br>
+<input type="checkbox" value="1">
+<label id="box2Label" style="color:white">No</label><br>
+<label id="textAreaLabel" style="color:white">Any comments or complaints?</label><br>
+<textarea id="textArea"></textarea><br>
+<button id="submit">Submit</button>
+</form>
+</div>
+</div>
+
+** end of undefined **
+
+** start of undefined **
+
+#img-div{
+  background-image: url("https://www.fayerwayer.com/resizer/s690xaNDgSmjaFebMnCxHp7duCg=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/NOAC3M3RXJDCTPJFNBZGZISON4.jpg");
+}
+#title{
+  text-align: center;
+background-color: hsl(60, 100%, 45%);  
+}
+#form-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#survey-form{
+  background-color: hsl(240, 100%, 40%)
+}
+#description{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+** end of undefined **
+

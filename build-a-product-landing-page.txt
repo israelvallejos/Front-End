@@ -1,0 +1,133 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<header id="header">
+<image id="header-img" src="https://i.pinimg.com/originals/92/89/85/928985a51f4eb99c1f102eae73ed964b.jpg">
+<nav id="nav-bar">
+<ul>
+<li><a class="nav-link" href="#devices"><strong>Devices</strong></a></li>
+<li><a class="nav-link" href="#prices"><strong>Prices</strong></a></li>  
+<li><a class="nav-link" href="#comments"><strong>Comments</strong></a></li>    
+</ul>
+</nav>
+<form id="form" action="https://www.freecodecamp.com/email-submit"><em>
+Be the first to know when we have a special offer or discount!</em><br>
+<input id="email" type="email" placeholder="IwantTo@know.com" name="email" required="required"><br>
+<input id="submit" type="submit">
+
+</form>
+</header>
+
+<div id="main-page">
+<h3 id="devices">Devices</h3>
+<ul>
+<li><strong>iPhone 13 Pro Max</strong></li><br><br><br>
+<iframe id="video" width="560" height="240" src="https://www.youtube.com/embed/bz0pUVHI5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+<li><strong>iPhone 13 Pro</strong></li><br><br><br>
+<iframe id="video" width="560" height="240" src="https://www.youtube.com/embed/n1xb_o_nhhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+<li><strong>iPhone 13</strong></li><br><br><br>
+<iframe id="video" width="560" height="240" src="https://www.youtube.com/embed/rz_rus8Vg6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+<li><strong>iPhone 13 Mini</strong></li><br><br><br><br>
+<iframe id="video" width="560" height="240" src="https://www.youtube.com/embed/bBBb35eZSFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+<li><strong>iPhone SE 3rd Gen</strong></li><br><br><br><br>
+<iframe id="video" width="560" height="240" src="https://www.youtube.com/embed/QpbGctuHoMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+<br>
+</ul>
+<br><br><br>
+
+<div id="prices">
+  <h3>Prices</h3>
+<ul>
+  <li>iPhone 13 Pro Max: $1099</li><br>
+  <li>iPhone 13 Pro: $999</li><br>
+  <li>iPhone 13: $799</li><br>
+  <li>iPhone 13 Mini: $699</li><br>
+  <li>iPhone SE 3rd Gen: $399</li>
+</ul>
+</div><br><br><br><br>
+<div id="comments">
+  <label><strong>Any Comments?</strong></label><br>
+  <textarea id="text-area" rows="15" cols="50" autocorrect="on"></textarea>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+#header-img{
+  width: 11vw;
+}
+#nav-bar ul{
+  list-style-type: none;
+  margin: 10px;
+  padding: 1px;
+  overflow: auto;
+}
+#nav-bar li {
+  float: left;
+}
+#nav-bar a{
+  display: block;
+  margin-left: 120px
+}
+#main-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  margin-top: 150px;
+  background-color: #FFF8DC
+
+}
+#header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 120px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #D2691E
+}
+@media screen and (max-width: 500px){
+  #header{
+    flex-wrap: wrap;
+  }
+}
+#main-page{
+  display: grid;
+}
+#prices{
+  display: grid;
+  border: solid black;
+  text-align: center;
+}
+
+
+
+
+
+
+** end of undefined **
+

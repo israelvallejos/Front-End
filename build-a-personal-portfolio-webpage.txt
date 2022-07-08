@@ -1,0 +1,114 @@
+** start of undefined **
+
+<link reel="stylesheet" href="styles.css">
+<nav id="navbar">
+<ul>
+<li><a href="#projects">Projects<a/></li> 
+<li><a href="#projects">Contact<a/></li>
+<li><a href="#projects">Comments<a/></li>
+<li><a href="#projects">About<a/></li> 
+</ul>  
+</nav>
+<div id="main">
+<section id="welcome-section">
+  <h1 id="main-title"><strong><em>Welcome to my very first Projects!</em></strong></h1>
+</section><br><br><br><br>
+<section id="projects"><h2 class="title-projects">Projects</h2><br>
+<ul>
+<li><a id="profile-link" class="project-tile" href="https://github.com/israelvallejos" target="_blank">Visit my GitHub Repository</a><br><br>
+<li><a id="profile-link" class="project-tile" href="https://github.com/israelvallejos" target="_blank">Visit my GitHub Repository</a><br><br>
+<li><a id="profile-link" class="project-tile" href="https://github.com/israelvallejos" target="_blank">Visit my GitHub Repository</a><br><br>
+<li><a id="profile-link" class="project-tile" href="https://github.com/israelvallejos" target="_blank">Visit my GitHub Repository</a>
+</ul>
+</section><br><br><br>
+
+<div id="contact">
+<h2 id="title-contact">Contact:</h2><br>
+<p id="paragraph-contact"><em>If you'd like to contact me, feel free to do so<br> I now let you my contact info so we can talk</em> </p><br>
+<ul>
+  <li><strong>LinkedIn:</strong> <em>https://www.linkedin.com/feed/</em> </li><br>
+  <li><strong>Instagram:</strong> <em>@iDontUseThoseShittySocialMedia</em></li><br>
+  <li><strong>WhatsApp:</strong> <em>+569 123456789</em></li><br>
+  <li><strong>Telegram:</strong> <em>+569 987654321</em></li><br>
+  <li><strong>Twitter:</strong> <em>Twitter.com</em> </li><br>
+
+</ul>
+</div><br><br><br>
+<div id="comments">
+<label id="comments-text">Any comments?</label><br>
+<textarea rows="10" cols="30"></textarea><br>
+<input type="submit">
+</div><br><br><br>
+
+<div id="about">
+<h3>About:</h3>
+  <p>I know that these 5 projects are pretty basics, but I really focused mainly on meet the requirements in order to pass the tests<br> Said that, I want you to know that I am focused on Javascript and React, cause those are the skills that I have to strengthen
+  </p>
+</div>
+
+</div>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar{
+  display: flex;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+}
+#navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px
+}
+#navbar li{
+ float: left;
+
+}
+#navbar li a {
+  display: block;
+  padding-left: 35px;
+  color: white;
+}
+#navbar li a:hover {
+  background-color: blue;
+}
+
+#main{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 35px;
+  background-color: azure;
+}
+
+@media screen and (max-width: 500px){
+#navbar {
+flex-wrap: wrap;
+}
+}
+
+#projects{
+  border: 1px solid black;
+}
+.title-projects{
+  text-align: center;
+}
+#paragraph-contact {
+  display: grid;
+  border: 2px solid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#main-title{
+  background-color:white;
+}
+
+** end of undefined **
+
